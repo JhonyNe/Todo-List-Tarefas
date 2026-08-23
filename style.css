@@ -1,0 +1,270 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    min-height: 100vh;
+
+    background-image: url("./img/ChatGPT\ Image\ 23\ de\ ago.\ de\ 2026\,\ 19_47_05.png");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+
+    font-family: Arial, Helvetica, sans-serif;
+    color: #fff;
+
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+
+    padding: 40px 20px;
+}
+
+.container {
+    width: 100%;
+    max-width: 650px;
+
+    background: rgba(10, 0, 15, 0.78);
+
+    padding: 30px;
+
+    border-radius: 18px;
+
+    border: 1px solid rgba(192, 5, 133, 0.45);
+
+    backdrop-filter: blur(12px);
+
+    box-shadow:
+        0 0 30px rgba(192, 5, 133, 0.25);
+}
+
+h1 {
+    color: rgb(192, 5, 133);
+
+    font-size: 38px;
+
+    text-align: center;
+
+    margin-bottom: 25px;
+
+    text-shadow:
+        0 0 10px rgba(192, 5, 133, 0.8);
+}
+
+.area-input {
+    display: grid;
+
+    grid-template-columns: 1fr 180px 100px;
+
+    gap: 10px;
+}
+
+input {
+    width: 100%;
+
+    height: 44px;
+
+    border: 2px solid rgb(192, 5, 133);
+
+    border-radius: 6px;
+
+    background-color: #222;
+
+    color: #eee;
+
+    outline: none;
+
+    padding: 0 10px;
+
+    font-size: 14px;
+}
+
+input:focus {
+    border-color: rgb(224, 73, 177);
+
+    box-shadow:
+        0 0 8px rgba(192, 5, 133, 0.5);
+}
+
+button {
+    border: none;
+
+    border-radius: 6px;
+
+    background-color: rgb(192, 5, 133);
+
+    color: #fff;
+
+    cursor: pointer;
+
+    transition: 0.3s;
+}
+
+button:hover {
+    background-color: rgb(131, 6, 91);
+}
+
+button:active {
+    background-color: rgb(224, 73, 177);
+}
+
+#btn-adicionar {
+    height: 44px;
+}
+
+.filtros {
+    display: flex;
+
+    justify-content: center;
+
+    gap: 10px;
+
+    margin-top: 20px;
+
+    margin-bottom: 20px;
+}
+
+.filtro {
+    padding: 9px 15px;
+
+    background-color: #222;
+
+    border: 1px solid rgb(192, 5, 133);
+}
+
+.filtro.ativo {
+    background-color: rgb(192, 5, 133);
+}
+
+ul {
+    list-style: none;
+}
+
+li {
+    background: rgba(192, 5, 133, 0.85);
+
+    padding: 14px;
+
+    margin-bottom: 12px;
+
+    border-radius: 8px;
+
+    display: flex;
+
+    justify-content: space-between;
+
+    align-items: center;
+
+    gap: 12px;
+
+    transition: 0.3s;
+}
+
+li:hover {
+    transform: translateY(-2px);
+
+    box-shadow:
+        0 5px 15px rgba(192, 5, 133, 0.25);
+}
+
+.conteudo-tarefa {
+    flex: 1;
+
+    cursor: pointer;
+}
+
+.texto-tarefa {
+    font-size: 16px;
+
+    font-weight: bold;
+
+    word-break: break-word;
+}
+
+.data-tarefa {
+    display: block;
+
+    margin-top: 6px;
+
+    font-size: 12px;
+
+    color: #ddd;
+}
+
+.acoes {
+    display: flex;
+
+    gap: 6px;
+}
+
+.acoes button {
+    padding: 8px 10px;
+
+    background-color: #111;
+}
+
+.acoes button:hover {
+    background-color: #333;
+}
+
+.concluida {
+    opacity: 0.6;
+}
+
+.concluida .texto-tarefa {
+    text-decoration: line-through;
+}
+
+.vazio {
+    text-align: center;
+
+    color: #aaa;
+
+    background: transparent;
+}
+
+.vazio:hover {
+    transform: none;
+
+    box-shadow: none;
+}
+
+@media (max-width: 650px) {
+
+    .container {
+        padding: 20px;
+    }
+
+    h1 {
+        font-size: 30px;
+    }
+
+    .area-input {
+        grid-template-columns: 1fr;
+    }
+
+    #btn-adicionar {
+        width: 100%;
+    }
+
+    .filtros {
+        flex-wrap: wrap;
+    }
+
+    li {
+        align-items: flex-start;
+
+        flex-direction: column;
+    }
+
+    .acoes {
+        width: 100%;
+    }
+
+    .acoes button {
+        flex: 1;
+    }
+}

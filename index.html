@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>JM - Todo List</title>
+</head>
+<body>
+
+    <div class="container">
+
+        <h1>Minha Lista de Tarefas</h1>
+
+        <div class="area-input">
+            <input
+                type="text"
+                id="input-tarefa"
+                placeholder="Digite a sua tarefa"
+            >
+
+            <input
+                type="datetime-local"
+                id="data-tarefa"
+            >
+
+            <button id="btn-adicionar">
+                Adicionar
+            </button>
+        </div>
+
+        <div class="filtros">
+            <button class="filtro ativo" data-filtro="todas">
+                Todas
+            </button>
+
+            <button class="filtro" data-filtro="pendentes">
+                Pendentes
+            </button>
+
+            <button class="filtro" data-filtro="concluidas">
+                Concluídas
+            </button>
+        </div>
+
+        <ul id="lista-tarefas"></ul>
+
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
