@@ -1,14 +1,10 @@
  📝 JM Todo List
 
- 🌐 Demonstração
-
-[![Acessar Projeto](https://img.shields.io/badge/🚀_Acessar_Projeto-JM_Todo_List-c00585?style=for-the-badge)](https://jhonyne.github.io/Todo-List-Tarefas/)
-
 Aplicação de lista de tarefas desenvolvida com **HTML, CSS e JavaScript**.
 
 O projeto permite organizar tarefas de forma simples, adicionar data e horário, marcar atividades como concluídas e filtrar as tarefas.
 
-## 🚀 Funcionalidades
+ 🚀 Funcionalidades
 
 - ✅ Adicionar novas tarefas
 - 📅 Definir data e horário
@@ -22,7 +18,7 @@ O projeto permite organizar tarefas de forma simples, adicionar data e horário,
 - 💾 Salvamento automático com LocalStorage
 - 📱 Layout responsivo
 
-## 💻 Tecnologias utilizadas
+ 💻 Tecnologias utilizadas
 
 - HTML5
 - CSS3
@@ -31,11 +27,11 @@ O projeto permite organizar tarefas de forma simples, adicionar data e horário,
 - Git
 - GitHub
 
-## 🎨 Interface
+ 🎨 Interface
 
 O projeto possui uma interface moderna com tema escuro, detalhes em rosa neon e background personalizado.
 
-## 📂 Estrutura do projeto
+ 📂 Estrutura do projeto
 
 ```text
 Todo-List/
@@ -48,14 +44,14 @@ Todo-List/
 ├── script.js
 └── README.md
 
-## ▶️ Como executar
+ ▶️ Como executar
 
 1. Baixe os arquivos do projeto.
 2. Abra a pasta no VS Code.
 3. Abra o arquivo `index.html` no navegador.
 4. Digite uma tarefa e clique em "Adicionar".
 
-## 📚 Aprendizados
+📚 Aprendizados
 
 Neste projeto pratiquei:
 
@@ -66,3 +62,15 @@ Neste projeto pratiquei:
 - Uso de eventos de clique.
 - Salvamento de tarefas com LocalStorage.
 - Uso de Git e GitHub para versionamento do projeto.
+
+📸 Preview do Projeto
+
+![Preview do JM Todo List](./img/preview-todo-list.png)
+
+🌐 Projeto Online
+
+👉 [Acessar JM Todo List](https://jhonyne.github.io/Todo-List-Tarefas/)
+
+ 🌐 Demonstração
+
+[![Acessar Projeto](https://img.shields.io/badge/🚀_Acessar_Projeto-JM_Todo_List-c00585?style=for-the-badge)](https://jhonyne.github.io/Todo-List-Tarefas/)
