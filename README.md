@@ -1,76 +1,139 @@
- 📝 JM Todo List
+# 📝 JM Todo List
 
-Aplicação de lista de tarefas desenvolvida com **HTML, CSS e JavaScript**.
+Aplicação web para organização e gerenciamento de tarefas, desenvolvida com **HTML, CSS e JavaScript**.
 
-O projeto permite organizar tarefas de forma simples, adicionar data e horário, marcar atividades como concluídas e filtrar as tarefas.
+O projeto permite adicionar tarefas, definir datas, marcar atividades como concluídas e filtrar a lista de acordo com o status.
 
- 🚀 Funcionalidades
+---
 
-- ✅ Adicionar novas tarefas
-- 📅 Definir data e horário
-- ✔️ Marcar tarefas como concluídas
-- ✏️ Editar tarefas
+## 🌐 Projeto Online
+
+O projeto está publicado no GitHub Pages.
+
+### 🚀 [Acessar JM Todo List](https://jhonyne.github.io/Todo-List-Tarefas/)
+
+---
+
+## 📸 Preview
+
+![Preview do JM Todo List](./img/preview-todo-list.png)
+
+---
+
+## ✨ Funcionalidades
+
+- ➕ Adicionar novas tarefas
+- 📅 Definir data para a tarefa
+- ✅ Marcar tarefas como concluídas
+- 📝 Editar tarefas
 - 🗑️ Excluir tarefas
-- 🔎 Filtrar tarefas por:
+- 🔍 Filtrar por:
   - Todas
   - Pendentes
   - Concluídas
-- 💾 Salvamento automático com LocalStorage
-- 📱 Layout responsivo
+- 💾 Armazenamento das tarefas no navegador
+- 📱 Interface responsiva
+- 🎨 Interface moderna em preto e rosa
 
- 💻 Tecnologias utilizadas
+---
 
-- HTML5
-- CSS3
-- JavaScript
-- LocalStorage
-- Git
-- GitHub
+## 💻 Tecnologias utilizadas
 
- 🎨 Interface
+### HTML5
+Responsável pela estrutura da aplicação.
 
-O projeto possui uma interface moderna com tema escuro, detalhes em rosa neon e background personalizado.
+### CSS3
+Utilizado para estilização, responsividade, botões, layout e identidade visual.
 
- 📂 Estrutura do projeto
+### JavaScript
+Responsável pela lógica da aplicação, criação das tarefas, filtros, edição, exclusão e armazenamento dos dados.
+
+### Git & GitHub
+Utilizados para versionamento do código e hospedagem do projeto.
+
+---
+
+## 📂 Estrutura do projeto
 
 ```text
-Todo-List/
+Todo-List-Tarefas/
 │
 ├── img/
-│   └── fundo.png
+│   ├── preview-todo-list.png
+│   └── imagem-de-fundo.png
 │
 ├── index.html
 ├── style.css
 ├── script.js
 └── README.md
+```
 
- ▶️ Como executar
+---
 
-1. Baixe os arquivos do projeto.
-2. Abra a pasta no VS Code.
-3. Abra o arquivo `index.html` no navegador.
-4. Digite uma tarefa e clique em "Adicionar".
+## 🎯 Objetivo do projeto
 
-📚 Aprendizados
+O **JM Todo List** foi desenvolvido com o objetivo de colocar em prática conhecimentos de desenvolvimento Front-end, principalmente manipulação do DOM com JavaScript, eventos, armazenamento de informações e criação de interfaces responsivas.
 
-Neste projeto pratiquei:
+Além da parte visual, o projeto busca oferecer uma experiência simples e intuitiva para organização de tarefas do dia a dia.
 
-- Estruturação de páginas com HTML.
-- Estilização e responsividade com CSS.
-- Manipulação de elementos com JavaScript.
-- Criação, edição e exclusão de tarefas.
-- Uso de eventos de clique.
-- Salvamento de tarefas com LocalStorage.
-- Uso de Git e GitHub para versionamento do projeto.
+---
 
-📸 Preview do Projeto
+## 🧠 Aprendizados
 
-![Preview do JM Todo List](./img/preview-todo-list.png)
+Durante o desenvolvimento deste projeto foram praticados conceitos como:
 
-🌐 Projeto Online
+- Manipulação do DOM
+- Eventos em JavaScript
+- Funções
+- Arrays e objetos
+- LocalStorage
+- Estruturação de HTML
+- Estilização com CSS
+- Responsividade
+- Git e GitHub
+- GitHub Pages
 
-👉 [Acessar JM Todo List](https://jhonyne.github.io/Todo-List-Tarefas/)
+---
 
- 🌐 Demonstração
+## 🚀 Como executar o projeto
 
-[![Acessar Projeto](https://img.shields.io/badge/🚀_Acessar_Projeto-JM_Todo_List-c00585?style=for-the-badge)](https://jhonyne.github.io/Todo-List-Tarefas/)
+Clone o repositório:
+
+```bash
+git clone https://github.com/JhonyNe/Todo-List-Tarefas.git
+```
+
+Entre na pasta:
+
+```bash
+cd Todo-List-Tarefas
+```
+
+Depois abra o arquivo:
+
+```text
+index.html
+```
+
+no navegador.
+
+---
+
+## 👨‍💻 Autor
+
+**Jonatas Medeiros**
+
+Desenvolvedor Web em formação, desenvolvendo projetos para aprimorar conhecimentos em Front-end, Back-end e desenvolvimento de aplicações web.
+
+### 🔗 Links
+
+- [GitHub](https://github.com/JhonyNe)
+- [LinkedIn](https://www.linkedin.com/in/jonatas-medeiros-5648361b7/)
+
+---
+
+## ⭐ Apoie o projeto
+
+Se você gostou do projeto, deixe uma **⭐ estrela no repositório**.
+
+Isso ajuda a acompanhar a evolução do projeto e do meu aprendizado como desenvolvedor.
